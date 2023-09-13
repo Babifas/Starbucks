@@ -1,0 +1,676 @@
+.header-div{
+    background-color: rgba(255, 255, 255,255);
+   height: 99px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+       margin: 0%;
+   box-shadow: 0px 1px  rgb(219,219,219);
+  
+}
+.flex-div{
+    height: 99px;
+    width: 1440px;
+  
+    display: flex;
+    justify-content: flex-start;
+    
+}
+body{
+    margin:0%;
+}
+.logo-div{
+    width: 91px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+
+.bar-div{
+    
+    width: 1349px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.menubar{
+
+display: flex;
+height: 99px;
+font-family: "SoDo Sans SemiBold";
+align-items: center;
+font-feature-settings: "calt";
+font-size: 14px;
+
+letter-spacing: 1.4px;
+line-height: 21px;
+text-align: left;
+
+
+}
+
+
+.menu{
+    cursor: pointer; 
+}
+.menu:hover{
+    color: #00754a;
+   
+ }
+.rewards{
+    margin-left: 24px;
+    cursor: pointer;
+
+}
+.rewards:hover{
+    color: #00754a ;
+  
+ }
+.gift-cards{
+    margin-left: 24px; 
+    cursor: pointer;
+}
+.gift-cards:hover{
+    color:  #00754a;
+   
+ }
+
+
+.signin-bar{
+    width: 350px;
+   
+    display: flex;
+    flex-direction: row;
+    height: 99px;
+   align-items: center;
+   
+    
+}
+.find-store{
+    width: 130px;
+    font-family:"SoDo Sans SemiBold" ;
+    margin-right: 40px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.location{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.location:hover{
+    color: #00754a;
+}
+.find-store:hover{
+    color: #00754a;
+}
+.sign-in{
+    width: 45px;
+    height: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: "SoDo Sans SemiBold";
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sign-in:hover{
+background-color: rgba(0, 0, 0, 0.1) ;
+}
+
+.join-now{
+    width: 60px;
+    height: 15px;
+    
+  
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: "SoDo Sans SemiBold";
+    font-weight: 600px;
+    border: 1px;
+    border-color: antiquewhite;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+.join-now:hover{
+    background-color: rgba(0, 0, 0, 0.8) ; 
+}
+.September-div{
+    width: 100%;
+    height: 625px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+.September{
+
+}
+.buy-one{
+    width: 720px;
+    height: 625px;
+    background-color: rgb(0,98,65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    width: 520px;
+   height: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.headcontent{
+    font-family:  "SoDo Sans SemiBold";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 60px;
+    margin-top: 0%;
+}
+.paragraph1{
+    margin: 0%;
+    font-family:   "SoDo Sans SemiBold";
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+   
+
+}
+.order-now{
+   height: 15px;
+   width: 85px; 
+   margin-top: 32px;
+   margin-bottom: 0%;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-right: 15px;
+   padding-left: 15px;
+    font-family:   "SoDo Sans SemiBold";
+    font-size: 16px;
+    cursor: pointer;
+border:1px solid white;
+border-radius: 30px;  
+}
+.order-now:hover{
+    background-color:rgba(0, 0, 0, 0.2) ;
+}
+.good-div{
+
+    height: 625px;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.good-idea{
+    width: 720px;
+    background-color: rgb(176,74,90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content2{
+    height: 320px;
+    width: 520px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head2{
+    font-size: 50px;
+    font-family: "SoDo Sans SemiBold";
+    text-align: center;
+    margin: 0%;
+}
+.try-coffee{
+    font-size: 24px;
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    line-height: 34px;
+    margin-top: 24px;
+   
+    margin-bottom: 32px;
+}
+.ordernow2{
+    background-color:  rgb(176,74,90);
+   
+    font-size:16px ;
+    text-align: center;
+    height: 15px;
+    width: 85px;
+    font-family: "SoDo Sans SemiBold";
+    border: 1px solid ;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.ordernow2:hover{
+    background-color:rgba(0, 0, 0, 0.2) ;
+}
+.cupcake-div  {
+    width: 100%;
+    height: 625px;
+  margin-top:  32px;
+   margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    
+}
+.fall-sweet{
+    width: 720px;
+    height: 625px;
+    background-color:rgb(214,154,45);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content3{
+    width: 520px;
+   height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(30,57,50);
+}
+.headcontent3{
+    font-family:  "SoDo Sans SemiBold";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 60px;
+    margin-top: 0%;
+}
+.paragraph3{
+    margin: 0%;
+    font-family:   "SoDo Sans SemiBold";
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+   
+
+}
+.order-now3{
+   height: 15px;
+   width: 85px; 
+   margin-top: 32px;
+   margin-bottom: 0%;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-right: 15px;
+   padding-left: 15px;
+    font-family:   "SoDo Sans SemiBold";
+    font-size: 16px;
+    cursor: pointer;
+border:1px solid rgb(30,57,50);;
+border-radius: 30px;
+}
+.order-now3:hover{
+    background-color:rgba(0, 0, 0, 0.2) ;
+}
+.youfull-div{
+
+    height: 420px;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.you-full{
+    width: 720px;
+    background-color: rgb(30,57,50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content4{
+    height: 200px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head4{
+    font-size: 24px;
+    font-family: "SoDo Sans SemiBold";
+    text-align: center;
+    margin: 0%;
+}
+.paragraph4{
+    font-size: 19px;
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    line-height: 34px;
+    margin-top: 24px;
+   
+    margin-bottom: 32px;
+}
+.ordernow4{
+    background-color:  rgb(30,57,50);
+   
+    font-size:16px ;
+    text-align: center;
+    height: 15px;
+    width: 85px;
+    font-family: "SoDo Sans SemiBold";
+    border: 1px solid ;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.ordernow4:hover{
+    background-color:rgba(0, 0, 0, 0.2) ;
+}
+.yellow-div{
+
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+   
+   
+}
+.new-collection{
+    width: 720px;
+    background-color: rgb(215,218,88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.content5{
+    height: 200px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(30,57,50)
+    
+
+}
+.head5{
+    font-size: 24px;
+    font-family: "SoDo Sans SemiBold";
+    text-align: center;
+    margin: 0%;
+}
+.paragraph5{
+    font-size: 19px;
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    line-height: 34px;
+    margin-top: 24px;
+   
+    margin-bottom: 32px;
+}
+.ordernow5{
+    background-color:  rgb(215,218,88);
+   
+    font-size:16px ;
+    text-align: center;
+    height: 15px;
+    width: 115px;
+    font-family: "SoDo Sans SemiBold";
+    border: 1px solid ;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.ordernow5:hover{
+    background-color:rgba(0, 0, 0, 0.2) ;
+}
+.valid-div{
+    width: 100%;
+    height: 320px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: "SoDo Sans SemiBold";
+    font-size: 13px;
+   
+   padding-top: 32px;
+    padding-bottom: 32px;
+}
+.valid-content{
+    width: 645px;
+    height: 200px;
+    line-height: 25px;
+   
+}
+.see-the{
+    width: 480px;
+    height: 15px;
+   
+}
+.footer-div{
+    width: 100%;
+    height: 600px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "SoDo Sans SemiBold";
+   
+
+    box-shadow: 0 -2px 0 rgba(0,0,0,.1);
+    
+    
+}
+.main-footer{
+    width: 1440px;
+    height: 390px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+.about-us{
+    width: 190px;
+    height: 390px;
+}
+.about-us>p:hover{
+    color: rgba(0, 0, 0, 0.8);
+     cursor: pointer;
+ }
+
+.careers{
+    width: 190px;
+    height: 390px;
+    padding-left: 32px;
+}
+.careers>p:hover{
+    color: rgba(0, 0, 0, 0.8);
+     cursor: pointer;
+ }
+.social-impact{
+    width: 190px;
+    height: 390px;
+    padding-left: 32px;
+}
+.social-impact>p:hover{
+    color: rgba(0, 0, 0, 0.8);
+     cursor: pointer;
+ }
+.for-buisness{
+    width: 190px;
+    height: 390px;
+    padding-left: 32px;
+   
+}
+.for-buisness>p:hover{
+    color: rgba(0, 0, 0, 0.8);
+     cursor: pointer;
+ }
+.order-pick{
+    width: 190px;
+    height: 390px;
+    padding-left:32px ;
+ 
+}
+.order-pick>p:hover{
+    color: rgba(0, 0, 0, 0.8);
+     cursor: pointer;
+ }
+.h-about{
+    font-size: 19px;
+    padding-bottom: 32px;
+    margin: 0%;
+}
+
+.about-us>p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin: 0%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.careers>h2{
+    font-size: 19px;
+    padding-bottom: 32px;
+    
+    margin: 0%;
+}
+.careers>p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+}
+.social-impact>h2{
+    font-size: 19px;
+    padding-bottom: 32px;
+    margin: 0%;
+}
+.social-impact>p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+}
+.for-buisness>h2{
+    font-size: 19px;
+    padding-bottom: 32px;
+    margin: 0%;
+}
+.for-buisness>p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+}
+.order-pick>h2{
+    font-size: 19px;
+    padding-bottom: 32px;
+    margin: 0%;
+    
+}
+.order-pick>p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 30px;
+    margin: 0%;
+}
+.line{
+    border-top: 1.5px solid rgba(0, 0, 0, 0.1) ; 
+    width: 1440px;
+  
+}
+.logoss{
+    width: 1440px;
+    height: 50px;
+    
+    padding-top: 32px;
+    display: flex;
+   
+
+}
+
+.footer-icon:hover{
+    
+opacity: 0.7;
+transition:  1s;
+}
+.logoss>img{
+    width: 32px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+
+.privacy-div{
+    width: 1440px;
+    height: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+   display: flex;
+   align-items: baseline;
+}
+
+.finish{
+    width: 1440px;
+    height: 21px;
+    margin: 0%;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.privacy-div>p{
+    padding-right: 24px;
+    
+}
+.privacy-div>span{
+    padding-right: 24px;
+
+}
+.privacy-div>p:hover{
+    cursor: pointer; 
+    text-decoration: underline rgba(0, 0, 0, 0.8);
+}
+
+
+
